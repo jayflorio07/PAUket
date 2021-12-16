@@ -32,7 +32,7 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.25;
   color: ${({ darkText }) => (darkText ? "#fff" : "#fff")};
   justify-content: center;

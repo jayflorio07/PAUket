@@ -11,6 +11,8 @@ import{
 // This event/calendar section was written with the help of an online resource (using snippets of this code) but we implemented our own additional code into it and changed it immensely, we used bootstrap's online resources that shares
 // tutorials and source codes that can be customized and implemented by programmers: https://react-bootstrap.github.io/
 
+import { Button } from "../ButtonElements3.js";
+
 
 const InfoSection = ({ alt}) => {
   return (
@@ -146,6 +148,8 @@ const InfoSection = ({ alt}) => {
             </div>
         </div>
     </div>
+    <Button Link to ={{ pathname: "https://www.adelphi.edu/academics/academic-calendar/"}} target="_blank" aria-label="calendar">ACADEMIC CALENDAR</Button>
+
 
 
 </div>

@@ -13,7 +13,8 @@ export const Button = styled(Link)`
   cursor: pointer;
   display: flex;
   text-decoration: none;
-  margin-bottom: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   
 
   justify-content: center;

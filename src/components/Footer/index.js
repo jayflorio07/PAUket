@@ -32,6 +32,9 @@ const Footer = () => {
             <WebsiteRights>
               PAUket © {new Date().getFullYear()} All rights reserved.
             </WebsiteRights>
+            <WebsiteRights>
+              Adelphi University <br /> 1 South Ave Garden City, NY 11530
+            </WebsiteRights>
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrap>

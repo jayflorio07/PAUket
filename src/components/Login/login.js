@@ -28,7 +28,10 @@ const LogIn = () => {
               <FormLabel htmlFor='for'>Password</FormLabel>
               <FormInput type='password' required />
               <FormButton type='submit'>Continue</FormButton>
+              <Button Link to ={{ pathname: "https://class.adelphi.edu/account_tools/username.php"}} target="_blank" aria-label="password">Forgot Username?</Button>
+
               <Button Link to ={{ pathname: "https://portal.adelphi.edu/retrieve-password/?email="}} target="_blank" aria-label="password">Forgot password?</Button>
+
             </Form>
           </FormContent>
         </FormWrap>

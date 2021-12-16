@@ -11,20 +11,17 @@ import { Button } from "../ButtonElements3.js";
 const index = () => {
     return (
         <div id='location' style={{ background:"#f5ad4b"}}  className="text-white row ">
-            <div className=" col-5 col-md-6 px-0 position-relative">
+            {/* <div className=" col-5 col-md-6 px-0 position-relative">
 
-                <img src={aupanther} 
-                    alt="alt" 
-                    className="position-absolute w-100 h-100 d-none d-md-block"
-                    style={{objectFit:"cover", objectPosition:"right bottom " }}
-                />
+                
 
-            </div>
+            </div> */}
 
 
-            <div className="col-7 col-md-6 d-flex py-5 align-items-center text-align-center;">
+            <div className=" align-items-center text-align-center;">
 
                 <Button>PRIVACY SETTINGS</Button>
+                <Button Link to ={{ pathname: "https://class.adelphi.edu/account_tools/username.php"}} target="_blank" aria-label="lookup">ID LOOKUP</Button>
 
             </div>
 

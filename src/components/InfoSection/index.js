@@ -4,8 +4,11 @@ import { TopLine, Heading, Subtitle } from "./InfoElements";
 
 import pauketlogo2 from "../../images/pauketlogo2.png";
 
+import { Button } from "../ButtonElements3.js";
 
-const InfoSectionn = ({ alt }) => {
+
+
+const InfoSection = ({ alt }) => {
   return (
     <div
       id="about"
@@ -35,6 +38,7 @@ const InfoSectionn = ({ alt }) => {
                 campus. Students/faculty will have access to the navigation
                 system through a website as well as mobile access.{" "}
               </Subtitle>
+              <Button Link to ={{ pathname: "https://www.adelphi.edu/"}} target="_blank" aria-label="adelphi">VISIT ADELPHI</Button>
             </div>
           </div>
         </div>
@@ -43,4 +47,4 @@ const InfoSectionn = ({ alt }) => {
   );
 };
 
-export default InfoSectionn;
+export default InfoSection;
