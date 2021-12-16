@@ -39,6 +39,8 @@ const InfoSection = ({ alt }) => {
                 system through a website as well as mobile access.{" "}
               </Subtitle>
               <Button Link to ={{ pathname: "https://www.adelphi.edu/"}} target="_blank" aria-label="adelphi">VISIT ADELPHI</Button>
+              <Button Link to ={{ pathname: "https://login.adelphi.edu/cas/login?service=https%3A%2F%2Fportal.adelphi.edu%2F"}} target="_blank" aria-label="adelphi">ECAMPUS PORTAL</Button>
+
             </div>
           </div>
         </div>

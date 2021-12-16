@@ -21,6 +21,8 @@ const index = () => {
             <div className=" align-items-center text-align-center;">
 
                 <Button>PRIVACY SETTINGS</Button>
+                <Button Link to ={{ pathname: "https://www.adelphi.edu/it/security/"}} target="_blank" aria-label="lookup">SECURITY TIPS</Button>
+
                 <Button Link to ={{ pathname: "https://class.adelphi.edu/account_tools/username.php"}} target="_blank" aria-label="lookup">ID LOOKUP</Button>
 
             </div>

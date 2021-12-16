@@ -14,7 +14,8 @@ import {
     H3,
     FriendCard,
     H2, 
-    P
+    P,
+    P2
 } from './FriendElements';
 
 
@@ -41,6 +42,8 @@ const Friends = ({alt}) => {
                             />
                             <H2> David, A. </H2>
                             <P className="mb-2"> ONLINE</P>
+                            <P2 className="mb-2"> PING</P2>
+
                             
                         </FriendCard>
 
@@ -52,6 +55,8 @@ const Friends = ({alt}) => {
                             />
                             <H2> John, D.</H2>
                             <P className="mb-2"> ONLINE</P>
+                            <P2 className="mb-2"> PING</P2>
+
                         
                         </FriendCard>
 
@@ -63,6 +68,8 @@ const Friends = ({alt}) => {
                             />
                             <H2> Jane, D. </H2>
                             <P className="mb-2"> ONLINE</P>
+                            <P2 className="mb-2"> PING</P2>
+
                     
                         </FriendCard>
 

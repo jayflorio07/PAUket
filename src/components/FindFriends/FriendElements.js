@@ -40,3 +40,9 @@ export const P = styled.p`
     font-style: italic;
     color: #32a852 ;
 `;
+
+export const P2 = styled.p`
+    font-size: 0.8rem;
+    font-style: italic;
+    color: red ;
+`;
