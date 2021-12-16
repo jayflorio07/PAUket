@@ -8,7 +8,7 @@ const index = () => {
   return (
     <div style={{ background: "#f5ad4b    " }} className="text-white row ">
       {/* <div className=" d-flex py-5 align-items-center"> */}
-        <Button>CALL SECURITY</Button>
+        <Button to="/call">CALL SECURITY</Button>
       {/* </div> */}
     </div>
   );

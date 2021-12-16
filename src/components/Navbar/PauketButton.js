@@ -8,7 +8,7 @@ const PauketButton = () => {
   // );
 
   return (
-    <Button onClick={Pauket} className="pauket-button">
+    <Button  to="/redirect">
       LAUNCH APP
     </Button>
   );

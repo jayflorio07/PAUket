@@ -10,6 +10,10 @@ import About from './pages/about';
 
 import ping from './pages/ping';
 
+import call from './pages/call';
+
+import redirect from './pages/redirect'
+
 
 
 
@@ -20,6 +24,8 @@ function App() {
         <Route path="/" component={Home} exact />
         <Route path="/about" component={About} exact />
         <Route path="/ping" component={ping} exact />
+        <Route path="/call" component={call} exact />
+        <Route path="/redirect" component={redirect} exact />
 
       </Switch>
       

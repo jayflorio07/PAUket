@@ -18,7 +18,7 @@ import {
 } from './FriendElements';
 
 
-const Friends = () => {
+const Friends = ({alt}) => {
     return (
 
         <div className=" row pt-5 pb-4" id="location" style={{ background: "#000000" }}>
@@ -36,6 +36,8 @@ const Friends = () => {
                             <img 
                             className="img-fluid mb-2 w-100" 
                             src={Icon1}
+                            alt={alt}
+                           
                             />
                             <H2> David, A. </H2>
                             <P className="mb-2"> ONLINE</P>
@@ -46,6 +48,7 @@ const Friends = () => {
                             <img 
                             className="img-fluid mb-2 w-100" 
                             src={Icon2}
+                            alt={alt}
                             />
                             <H2> John, D.</H2>
                             <P className="mb-2"> ONLINE</P>
@@ -56,6 +59,7 @@ const Friends = () => {
                             <img 
                             className="img-fluid mb-2 w-100" 
                             src={Icon3}
+                            alt={alt}
                             />
                             <H2> Jane, D. </H2>
                             <P className="mb-2"> ONLINE</P>
