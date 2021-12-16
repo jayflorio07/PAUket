@@ -12,6 +12,9 @@ import {
   Text
 } from './loginElements';
 
+import { Button } from "../ButtonElements4";
+
+
 const LogIn = () => {
   return (
     <>
@@ -25,7 +28,7 @@ const LogIn = () => {
               <FormLabel htmlFor='for'>Password</FormLabel>
               <FormInput type='password' required />
               <FormButton type='submit'>Continue</FormButton>
-              <Text>Forgot password?</Text>
+              <Button Link to ={{ pathname: "https://portal.adelphi.edu/retrieve-password/?email="}} target="_blank" aria-label="password">Forgot password?</Button>
             </Form>
           </FormContent>
         </FormWrap>
